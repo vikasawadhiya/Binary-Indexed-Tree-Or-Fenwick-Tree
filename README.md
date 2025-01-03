@@ -8,7 +8,7 @@ The motivation behind creating this repository is to present a tutorial document
 
 ## Documentation 
 
-The tutorial document BinaryIndexedTreeOrFenwickTree.pdf explains the Binary Indexed Tree or Fenwick Tree in depth. It explains concept or logic behind all the aspects like representation of tree in an array, binary indexing concept of the parent-child relationship, complexity of sum query and element update operations.
+The tutorial document [BinaryIndexedTreeOrFenwickTree.pdf](https://github.com/vikasawadhiya/Binary-Indexed-Tree-Or-Fenwick-Tree/blob/main/BinaryIndexedTreeOrFenwickTree.pdf) explains the Binary Indexed Tree or Fenwick Tree in depth. It explains concept or logic behind all the aspects like representation of tree in an array, binary indexing concept of the parent-child relationship, complexity of sum query and element update operations.
 
 The tutorial document heavily uses pictorial representations to explain the concepts in the simplest way. 
 
@@ -50,5 +50,5 @@ This array representation of BIT or Fenwick tree illustrates how the BIT or Fenw
 
 ## License
 
-The code is licensed under the MIT License.<br/>
-The tutorial document BinaryIndexedTreeOrFenwickTree.pdf is licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+The code is licensed under the [MIT License](https://github.com/vikasawadhiya/Binary-Indexed-Tree-Or-Fenwick-Tree/blob/main/LICENSE).<br/>
+The tutorial document [BinaryIndexedTreeOrFenwickTree.pdf](https://github.com/vikasawadhiya/Binary-Indexed-Tree-Or-Fenwick-Tree/blob/main/BinaryIndexedTreeOrFenwickTree.pdf) is licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).

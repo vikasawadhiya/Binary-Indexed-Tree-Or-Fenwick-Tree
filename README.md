@@ -1,6 +1,6 @@
 # Binary Indexed Tree or Fenwick Tree
 
-Binary Indexed Tree (BIT) or Fenwick Tree is an implicit tree data-structure. It is an optimize tree data-structure like AVL Tree or Red-Black Tree and performs operations in logarithmic time complexity but like other tree structures, it doesn’t contain elements directly rather contains the information about the elements (range of elements). Binary Indexed Tree or Fenwick Tree performs range sum query and element update operation in O(log n) logarithmic time complexity and  naïve and prefix sum array methods unable to perform both of these operations in logarithmic time complexity.
+Binary Indexed Tree (BIT) or Fenwick Tree is an implicit tree data-structure. It is an optimize tree data-structure like AVL Tree or Red-Black Tree and performs operations in logarithmic time complexity but like other tree structures, it doesn’t contain elements directly rather contains the information about the elements (range of elements). Binary Indexed Tree or Fenwick Tree performs range sum query and element update operations in O(log n) logarithmic time complexity and  naïve and prefix sum array methods unable to perform both of these operations in logarithmic time complexity.
 
 As Binary Indexed Tree or Fenwick Tree is an implicit tree data-structure and doesn’t require nodes explicitly to represent the tree data-structure rather it is constructed in auxiliary array of size one more than of the array of elements and due to this it has O(n) linear space complexity. The implicit parent-child relationship among the elements exists through binary indexing technique.
 
@@ -13,7 +13,7 @@ The tutorial document [BinaryIndexedTreeOrFenwickTree.pdf](https://github.com/vi
 
 The tutorial document explains Binary Indexing concept which is foundational concept the Binary Indexed Tree or Fenwick Tree is built upon, and which turn a normal auxiliary array into powerful optimized implicit tree data-structure. It first explains how auxiliary array represents Binary Indexed Tree or Fenwick Tree then it explains how the range sum query and element update operations work step by step.
 
-Then tutorial document explains Binary Indexing the core concept of BIT or Fenwick Tree and demystify its inbuild hierarchy and how this inbuild hierarchy divides the array into different ranges and how these ranges bring the time complexity to O(log n) logarithmic time complexity for both range sum q and element update operations. It provides detailed analysis on how the range sum query and element update operation achieves the logarithmic time complexity and finally discuss how BIT or Fenwick Tree can be constructed in O(n) linear time complexity.
+Then tutorial document explains Binary Indexing the core concept of BIT or Fenwick Tree and demystify its inbuild hierarchy and how this inbuild hierarchy divides the array into different ranges and how these ranges bring the time complexity to O(log n) logarithmic time complexity for both range sum query and element update operations. It provides detailed analysis on how the range sum query and element update operation achieves the logarithmic time complexity and finally discuss how BIT or Fenwick Tree can be constructed in O(n) linear time complexity.
 
 
 ## Implementation & Usage
@@ -26,7 +26,7 @@ A Fenwick tree can be constructed by passing the array of integers to the constr
 FenwickTree fTree{ {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16} };
 ```
 
-Sum range query
+Range sum query
 
 ```cpp
 int sum = fTree.rangSum(1, 4);

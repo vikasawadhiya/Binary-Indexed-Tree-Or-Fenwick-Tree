@@ -2,16 +2,16 @@
 
 Binary Indexed Tree (BIT) or Fenwick Tree is an implicit tree data-structure. It is an optimize tree data-structure like AVL Tree or Red-Black Tree and performs operations in logarithmic time complexity but like other tree structures, it doesn’t contain elements directly rather contains the information about the elements (range of elements). Binary Indexed Tree or Fenwick Tree performs range sum query and element update operations in O(log n) logarithmic time complexity and  naïve and prefix sum array methods unable to perform both of these operations in logarithmic time complexity.
 
-As Binary Indexed Tree or Fenwick Tree is an implicit tree data-structure and doesn’t require nodes explicitly to represent the tree data-structure rather it is constructed in auxiliary array of size one more than of the array of elements and due to this it has O(n) linear space complexity. The implicit parent-child relationship among the elements exists through binary indexing technique.
+The Binary Indexed Tree or Fenwick Tree is an implicit tree data-structure and doesn’t require nodes explicitly to represent the tree data-structure rather it is constructed in auxiliary array of size one more than of the array of elements and due to this it has O(n) linear space complexity. The implicit parent-child relationship among the elements exists through binary indexing technique.
 
 Binary Indexed Tree or Fenwick tree is used most of the time for range sum query, but it can also be used to find other type of queries like minimum or maximum range query.
 
 
 ## Documentation 
 
-The tutorial document [BinaryIndexedTreeOrFenwickTree.pdf](https://github.com/vikasawadhiya/Binary-Indexed-Tree-Or-Fenwick-Tree/blob/main/BinaryIndexedTreeOrFenwickTree.pdf) contains 20 pages and explains the concept in deepest level and explore all expects of Binary Indexed Tree or Fenwick Tree. Tutorial document is written in simplest manner and doesn’t feel like reading a typical technical document. It uses a lot of pictorial representations to explain the concept.
+The tutorial document [BinaryIndexedTreeOrFenwickTree.pdf](https://github.com/vikasawadhiya/Binary-Indexed-Tree-Or-Fenwick-Tree/blob/main/BinaryIndexedTreeOrFenwickTree.pdf) contains 20 pages and delves into the concept of Binary Indexed Tree or Fenwick Tree in great detail. Tutorial document is written in simplest manner and doesn’t feel like reading a typical technical document. It uses a lot of pictorial representations to explain the concept.
 
-The tutorial document explains Binary Indexing concept which is foundational concept the Binary Indexed Tree or Fenwick Tree is built upon, and which turn a normal auxiliary array into powerful optimized implicit tree data-structure. It first explains how auxiliary array represents Binary Indexed Tree or Fenwick Tree then it explains how the range sum query and element update operations work step by step.
+The tutorial document explains the Binary Indexing concept, which is a foundational concept upon which the Binary Indexed Tree or Fenwick Tree is built, and which turn a normal auxiliary array into powerful optimized implicit tree data-structure. It first explains how auxiliary array represents Binary Indexed Tree or Fenwick Tree then it explains how the range sum query and element update operations work step by step.
 
 Then tutorial document explains Binary Indexing the core concept of BIT or Fenwick Tree and demystify its inbuild hierarchy and how this inbuild hierarchy divides the array into different ranges and how these ranges bring the time complexity to O(log n) logarithmic time complexity for both range sum query and element update operations. It provides detailed analysis on how the range sum query and element update operation achieves the logarithmic time complexity and finally discuss how BIT or Fenwick Tree can be constructed in O(n) linear time complexity.
 
